@@ -30,7 +30,8 @@ go func() {
 		server := rpc.NewServer(custom, store, node, c.Int("port")+1000)
 		err := server.ListenAndServe()
 }
-``` set up rpc server
+# set up rpc server
+``` 
 `return node.Loop()` call node loop in `boot.go`.
 
 
